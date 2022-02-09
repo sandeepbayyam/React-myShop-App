@@ -1,8 +1,10 @@
-<<<<<<< HEAD
+
 # React-myShop-App
 E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux
 =======
->>>>>>> f018f3d (Initialize project using Create React App)
+#Demo : https://sandeepmyshop.herokuapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
