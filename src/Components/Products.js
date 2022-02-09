@@ -34,7 +34,7 @@ useEffect(()=>{
                 <Button variant="dark">Search</Button>
               </Form>
               <hr/>
-          <Row className="ms-4">
+          <Row>
            {
              products && products.map((p,i) => {
                return (
