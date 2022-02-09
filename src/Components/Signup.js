@@ -26,7 +26,7 @@ const Signup = () => {
 
   return (
     < div className="signupcontainer">
-      <Container fluid className="rounded-3 shadow w-50 p-4 m-5 float-end" style={{maxWidth:'400px'}}>
+      <Container fluid className="rounded-3 shadow  p-5 m-4 float-end" style={{width:'fit-content'}}>
         <h2 className="mb-3 mt-5 text-center" >Signup</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
