@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Form, Alert } from "react-bootstrap";
+import { Form, Alert,Container} from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import GoogleButton from "react-google-button";
+import {FcGoogle} from 'react-icons/fc';
 import { useUserAuth } from "../context/UserAuthContext";
 import '../index.css';
 
@@ -36,7 +36,7 @@ const Login = () => {
 
   return (
     <div className="logincontainer">
-      <div className="rounded-3 p-4 m-5 shadow" style={{width:'400px', height:'500px'}}>
+      <Container fluid className="w-50 rounded-3 shadow p-4 m-5">
         <h2 className="mt-5 text-center"> Login</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
@@ -61,19 +61,21 @@ const Login = () => {
               Log In
             </Button>
           </div>
-        </Form>
+          </Form>
         <hr />
-        <div>
-          <GoogleButton
-            className="g-btn ms-5"
-            type="dark"
+        <div className="d-grid gap-2">
+          <Button variant="dark"
             onClick={handleGoogleSignIn}
-          />
+            className="mx-auto"
+          > <FcGoogle size={26}/>&nbsp;
+          Sign in with Google
+          </Button>
         </div>
-        <div className="p-4 box mt-3 text-center">
+         
+        <div className="text-center m-3">
         Don't have an account? <Link to="/signup">Sign up</Link>
       </div>
-      </div>
+      </Container>
      
     </div>
   );

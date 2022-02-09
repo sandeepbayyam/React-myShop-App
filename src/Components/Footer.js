@@ -26,13 +26,13 @@ const Footer = () => {
           <TiSocialYoutube size={50}/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
-          <div className='p-3' style={{marginLeft:"60px",marginTop:'60px'}}>
+          <div className='p-3 mx-5'>
           ©Copyright 2022 @ <h6>myShop.com</h6>
           </div>
 
-       <div className=' mt-3 p-1' style={{marginLeft:"auto",}}>
+       <div className=' mt-3 p-1 ms-5'>
          <h5>Signup for our Newsletter</h5>
-       <Form className='d-flex' style={{width:"400px",}}>
+       <Form className='d-flex'>
         <FormControl
           type="email"
           placeholder="Enter your E-mail"

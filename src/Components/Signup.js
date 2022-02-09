@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Alert } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Button,Container } from "react-bootstrap";
 import { useUserAuth } from "../context/UserAuthContext";
 import '../index.css'
 
@@ -26,7 +26,7 @@ const Signup = () => {
 
   return (
     < div className="signupcontainer">
-      <div className="rounded-3 p-4 m-5 shadow float-end" style={{width:'400px', height:'500px'}}>
+      <Container fluid className="rounded-3 shadow w-50 p-4 m-5 float-end">
         <h2 className="mb-3 mt-5 text-center" >Signup</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ const Signup = () => {
         <div className="p-4 box mt-3 text-center">
         Already have an account? <Link to="/">Log In</Link>
       </div>
-      </div>
+      </Container>
      
     </div>
   );

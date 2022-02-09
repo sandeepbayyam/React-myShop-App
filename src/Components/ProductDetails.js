@@ -16,10 +16,10 @@ const ProductDetails = (props) => {
     <div>
       <Nav/>
       <h1 className='text-center'> ProductDetails </h1>
-      <Card className='m-5 p-5'>
+      <Card className='p-4'>
       <Row className='mx-auto'>
         <Col lg={4}>
-        <CardImg src={product.image} className="img.fluid p-3 mx-auto"style={{width:"350px",height:"350px"}}>
+        <CardImg src={product.image} className="img.fluid p-3 mx-auto">
         </CardImg>
         </Col>
         <Col lg={8}>

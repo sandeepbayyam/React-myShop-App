@@ -27,7 +27,7 @@ const Wishlist = (props) => {
                return (
                  <>
                  <Col  xl={4} lg={4} md={6} sm={12} className="mx-auto" >
-                   <Card className="mb-3 shadow-lg" style={{width:'350px',height:'400px'}}>
+                   <Card className="mb-3 shadow-lg">
                    <Card.Header className="mb-2 text-center">{p.category}</Card.Header>
                    <CardImg src={p.image} className="img.fluid p-3 mx-auto" style={{width:"150px",height:"150px"}}>
                    </CardImg>
