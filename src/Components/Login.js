@@ -36,7 +36,7 @@ const Login = () => {
 
   return (
     <div className="logincontainer">
-      <Container fluid className="w-50 rounded-3 shadow p-4 m-5">
+      <Container fluid className="w-50 rounded-3 shadow p-4 m-5" style={{maxWidth:'400px'}}>
         <h2 className="mt-5 text-center"> Login</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
