@@ -5,7 +5,10 @@
 
 
 ## React-myShop-App
-  ![](Ecom.gif)
+ 
+ <p align="center" width="100%">
+    ![](Ecom.gif)
+  </p>
   
   
 **E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux**
