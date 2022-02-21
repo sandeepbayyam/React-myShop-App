@@ -2,9 +2,7 @@
   myShop E-commerce App live demo
   <a href="https://sandeepmyshop.herokuapp.com/" target="_blank">myShop App</a>
 </h2>
-
-      ![Ecom](https://user-images.githubusercontent.com/94124564/154970391-56dcf4ae-2fd9-4f78-b5fd-8db3cfb5d73b.gif)
-
+   ![Ecom](https://user-images.githubusercontent.com/94124564/154970391-56dcf4ae-2fd9-4f78-b5fd-8db3cfb5d73b.gif)
 ## Built With
 ## React-myShop-App
 **E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux**
