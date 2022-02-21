@@ -2,7 +2,7 @@
   myShop E-commerce App live demo
   <a href="https://sandeepmyshop.herokuapp.com/" target="_blank">myShop App</a>
 </h2>
-  
+  ![Ecom](Ecom.gif)
   
 ## Built With
 ## React-myShop-App
