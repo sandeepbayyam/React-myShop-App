@@ -8,7 +8,7 @@
 
 ## Built With
 ## React-myShop-App
- **E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux
+**E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux**
 
 This project was built using these technologies.
 - React.js
