@@ -7,7 +7,11 @@
 ## React-myShop-App
  
  <p align="center" width="100%">
+  
+  
     ![](Ecom.gif)
+  
+  
   </p>
   
   
