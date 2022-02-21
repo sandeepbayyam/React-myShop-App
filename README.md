@@ -1,8 +1,32 @@
-
+<h2 align="center">
+  myShop E-commerce App live demo
+  <a href="https://sandeepmyshop.herokuapp.com/" target="_blank">myShop App</a>
+</h2>
+<div align="center">
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/20383021/148535829-e697023d-cf9b-4873-b04c-ab33c465d085.png">
+</div>
+=======
+## Built With
 # React-myShop-App
-Demo : https://sandeepmyshop.herokuapp.com/
-
 E-commerce App with complete Login &amp; Logout  authentication  using React and Redux #React #Redux
+
+This project was built using these technologies.
+- React.js
+- Redux
+- Redux-thunk
+- contexAPI
+- Firebase
+- React-Bootstrap
+- VsCode
+
+## Features
+
+**📖 Multi-Page Layout**
+
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+
+**📱 Fully Responsive**
+
 =======
 # Getting Started with Create React App
 
